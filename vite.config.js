@@ -4,6 +4,8 @@ import { defineConfig } from "vite";
 export default defineConfig({
   root: path.resolve("src"),
 
+  publicDir: path.resolve("public"),
+
   build: {
     outDir: path.resolve("dist"),
 
