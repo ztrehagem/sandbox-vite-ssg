@@ -1,0 +1,19 @@
+{
+  "name": "sandbox-vite-ssg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "clean": "rm -r dist",
+    "prebuild": "npm run clean",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Shigeki Suwa <shigeki.suwa@ztrehagem.dev>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "vite": "^2.7.13"
+  }
+}
