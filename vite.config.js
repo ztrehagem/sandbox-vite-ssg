@@ -4,8 +4,6 @@ import { defineConfig } from "vite";
 export default defineConfig({
   root: path.resolve("src"),
 
-  base: '/sandbox-vite-ssg/',
-
   build: {
     outDir: path.resolve("dist"),
 
